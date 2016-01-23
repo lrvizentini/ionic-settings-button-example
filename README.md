@@ -98,6 +98,6 @@ Example of how implement a setting button using Ionic framework
     <b>description</b>:function triggered when click the settings button
 </div>
 <div>
-![alt tag](https://github.com/lrvizentini/ionic-settings-button-example/blob/master/screens/image1.png)
+![alt tag](https://raw.github.com/lrvizentini/ionic-settings-button-example/blob/master/screens/image1.png)
 </div> 
 <h1>Enjoy and contribute</h1>
