@@ -14,22 +14,18 @@ angular.module('starter.controllers', [])
 
         $scope.actions = [
             { text: 'Settings'  , value: 0, fn: $scope.fn1, disabled: true },
-            { text: 'Feedback'  , value: 1, fn: $scope.fn2, disabled: false },
+            { text: 'Feedback'  , value: 1, fn: $scope.fn2 },
             { text: 'Chats'     , value: 1, href: '#/tab/chats', disabled: false },
-            { text: 'Logout'    , value: 2, href: "#/logout", enabled: true }
+            { text: 'Logout'    , value: 2, href: "#/logout"}
         ];
 
     })
 
     .controller('ChatsCtrl', function ($scope, Chats) {
-        // With the new view caching in Ionic, Controllers are only called
-        // when they are recreated or on app start, instead of every page change.
-        // To listen for when this page is active (for example, to refresh data),
-        // listen for the $ionicView.enter event:
-        //
-        //$scope.$on('$ionicView.enter', function(e) {
-        //});
-
+        $scope.$on('$ionicView.enter', function(e) {
+            console.log('$ionicView.enter');
+        });
+        console.log('entr normal');
         $scope.chats = Chats.all();
         $scope.remove = function (chat) {
             Chats.remove(chat);
