@@ -63,8 +63,11 @@ Actions menu array. Is an object define as
 ## on-click
  * **type** `function(isopened:boolean) => void`  function triggered when click the settings button
 
+# Images
+
 ![alt tag](https://raw.githubusercontent.com/lrvizentini/ionic-settings-button-example/master/screens/image1.png)
 ![alt tag](https://raw.githubusercontent.com/lrvizentini/ionic-settings-button-example/master/screens/image2.png)
 ![alt tag](https://raw.githubusercontent.com/lrvizentini/ionic-settings-button-example/master/screens/image3.png)
-</div> 
-<h1>Enjoy and contribute</h1>
+
+# Enjoy and contribute
+## Contact lrvizentini at gmail
